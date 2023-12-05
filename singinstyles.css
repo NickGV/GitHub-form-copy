@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+a {
+  color: #2f81f7;
+}
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 1.5em;
+  margin-bottom: 0.6rem;
+}
+
+.header-title {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.main {
+  height: 21.25rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 19.375rem;
+  gap: 0.8rem;
+  border-radius: 5px;
+  background-color: #161b22;
+  border: 1px solid #21262d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+}
+
+.username-label,
+.password-label {
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.password-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-label a {
+  text-decoration: none;
+}
+
+.username-input,
+.password-input {
+  padding: 8px 15px;
+  font-size: 0.875em;
+  color: #e6edf3;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  outline: none;
+}
+
+.sing-btn {
+  padding: 0.3125rem;
+  background-color: #238636;
+  border: none;
+  border-radius: 6px;
+  color: #e6edf3;
+  transition: background-color 0.5s;
+}
+
+.sing-btn:hover {
+  background-color: #2db047;
+  cursor: pointer;
+}
+
+.login-callout {
+  border: 1px solid #21262d;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+
+p.login-callout a {
+  text-decoration: none;
+}
+
+.login-callout a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.footer a:last-child {
+  color: #7d8590;
+}
+
+.footer a:hover {
+  color: #2f81f7;
+  text-decoration: underline;
+}
+
+
+.attribution {
+  color: white;
+  
+}
+
+.attribution a {
+  color: #00cfc8;
+}

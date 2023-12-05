@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+}
+
+.header p {
+  font-style: 1em;
+  color: #8193b2;
+}
+.header p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header p a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  margin-top: 3rem;
+  background-color: #1f2328;
+  border-radius: 10px;
+  width: 37.5rem;
+  height: 28.125rem;
+  padding: 1.5rem;
+}
+
+.title,
+.subtitle {
+  color: #8193b2;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form label {
+  color: #00cfc8;
+}
+
+.form input {
+  color: #fff;
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  padding: 0.3rem;
+  outline: none;
+}
+
+.form input:focus {
+  border: 1px solid #00928d;
+}
+
+.email-container,
+.password-container,
+.username-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.email-container {
+  margin-top: 2rem;
+}
+
+.arrow {
+  color: #ea4aaa;
+  font-size: 0.8em;
+}
+
+.username-input {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.submit-btn {
+  color: #20bb3d;
+  border: 1px solid #20bb3d;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 0.5rem;
+}
+
+.attribution {
+  color: white;
+}
+
+.attribution a {
+  color: #00cfc8;
+}
